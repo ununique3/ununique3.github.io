@@ -106,7 +106,10 @@ img:hover {
 	-webkit-filter: blur(0px);
 	filter: blur(0px)
 	}	
-	
+a:hover {
+	-webkit-filter: blur(3px);
+	filter: blur(3px)
+}	
 a:visited {
     color: mediumblue;
     background-color: transparent;
