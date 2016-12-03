@@ -80,7 +80,13 @@ h1 {
 	font-family: Fantasy;
 	color:mediumblue;
     padding: 13px;
-   
+  
+.old_page {
+			color: cyan;
+			Background-color: navy;
+			font-size: 20px;
+			font-family: new times roman
+}   
 
 }
 .nav_image {
