@@ -21,7 +21,7 @@ h1 {
 #header_container {
 	position:fixed;
 	background-color:RGBa(0, 191, 255, 0.9);
-    border: 1px solid mediumblue;
+    border: 0px solid mediumblue;
     border-radius:6px;
 	margin-top: 1px;
 	margin-left: 60px;
@@ -39,7 +39,7 @@ h1 {
 #nav_container {
 	position:fixed;
 	background-color:RGBa(0, 191, 255, 0.9);
-    border: 1px solid mediumblue;
+    border: 0px solid mediumblue;
     border-radius:6px;
 	top: 86px;
 	right: ;
@@ -67,7 +67,7 @@ h1 {
 	font-size: 1em;
 	color:black;
     background-color:RGBa(0, 191, 255, 0.7);
-    border: 1px solid mediumblue;
+    border: 0px solid mediumblue;
     border-radius:6px;
     padding: 18px;
     margin: 18px;
