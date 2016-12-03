@@ -122,7 +122,7 @@ data-tooltip] {
     display: none;
     position: absolute;
     background: RGBa(0, 0, 205, 0.8); 0-0-205
-    color: RGBa(0, 191, 255, 0.8);
+    color: RGBa(0, 191, 255, 0.1);
     padding: 4px 8px;
     font-size: 14px;
     line-height: 1.4;
