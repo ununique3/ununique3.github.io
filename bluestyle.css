@@ -10,14 +10,14 @@ body {
     padding: 0;
     
 	}
-
+/*
 h1 {
 	font-size: 1em;
 	position: fixed;
 	}
+*/
 
 
-/*second attempt, this worked :)  */
 #header_container {
 	position:fixed;
 	background-color:RGBa(0, 191, 255, 0.9);
