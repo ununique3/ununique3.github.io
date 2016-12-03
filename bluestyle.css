@@ -112,9 +112,12 @@ img:hover {
 	-webkit-filter: blur(0px);
 	filter: blur(0px)
 	}	
-
+a:link {
+	text-decoration: none;
+	color: RGBa(0, 191, 255, 0.9)
+}
 a:visited {
-    color: mediumblue;
+    color: RGBa(0, 191, 255, 0.9);
     background-color: transparent;
     text-decoration: none;
 }	
