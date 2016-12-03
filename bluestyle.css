@@ -121,7 +121,7 @@ data-tooltip] {
     content: attr(data-tooltip);
     display: none;
     position: absolute;
-    background: RGBa(0, 0, 205, 0.8); 
+    background: RGBa(0, 191, 255, 0.7); 
     color: white;
     padding: 4px 8px;
     font-size: 14px;
@@ -129,6 +129,7 @@ data-tooltip] {
     min-width: 100px;
     text-align: center;
     border-radius: 4px;
+    border: 1px solid mediumblue;
 }
 /* Dynamic horizontal centering */
 [data-tooltip-position="top"]:before,
