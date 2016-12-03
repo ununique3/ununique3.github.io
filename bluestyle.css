@@ -107,8 +107,11 @@ img:hover {
 	filter: blur(0px)
 	}	
 	
-	
-	
+a:visited {
+    color: mediumblue;
+    background-color: transparent;
+    text-decoration: none;
+}	
 
 data-tooltip] {
     display: inline-block;
