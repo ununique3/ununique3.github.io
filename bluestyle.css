@@ -137,7 +137,7 @@ data-tooltip] {
     min-width: 100px;
     text-align: center;
     border-radius: 4px;
-    border: 2px solid mediumblue;
+    border: 0px solid mediumblue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 /* Dynamic horizontal centering */
