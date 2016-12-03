@@ -121,8 +121,8 @@ data-tooltip] {
     content: attr(data-tooltip);
     display: none;
     position: absolute;
-    background: #000;
-    color: #fff;
+    background: RGBa(0, 191, 255, 0.9);
+    color: mediumblue;
     padding: 4px 8px;
     font-size: 14px;
     line-height: 1.4;
