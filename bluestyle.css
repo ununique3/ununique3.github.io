@@ -41,7 +41,7 @@ h1 {
 	background-color:RGBa(0, 191, 255, 0.9);
     border: 3px solid mediumblue;
     border-radius:14px;
-	top: 92px;
+	top: 90px;
 	right: ;
 	left: 25px;
 	
@@ -58,7 +58,7 @@ h1 {
 #container {
 	margin: 0 auto;
 	overflow:auto;
-	padding: 95px 0;
+	padding: 100px 0;
 	
 	}    
 #content {
