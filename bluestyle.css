@@ -105,7 +105,13 @@ h1 {
 	filter: blur(3px)
 }
 
-img:hover {
+.nav_image.active{
+	-webkit-filter: blur(0px);
+	filter: blur(0px)
+}
+
+
+.nav_image:hover {
 	/*
 	height:100px;
 	width: 100px;
