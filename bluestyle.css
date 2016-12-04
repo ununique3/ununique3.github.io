@@ -105,7 +105,7 @@ h1 {
 	filter: blur(3px)
 }
 
-.nav_image.active{
+.nav_image:active{
 	-webkit-filter: blur(0px);
 	filter: blur(0px)
 }
