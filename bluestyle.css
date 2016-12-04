@@ -1,4 +1,4 @@
-
+/*Bluestyle.css  by ununique3 2016*/
 body {
     background: url(https://github.com/ununique3/Hello-World/blob/master/powershot%207-14%20626_Fotor_%20inverted.jpg?raw=true);
     background-attachment: fixed;
@@ -105,7 +105,7 @@ h1 {
 	filter: blur(3px)
 }
 
-.nav_image:active{
+.a:active{
 	-webkit-filter: blur(0px);
 	filter: blur(0px)
 }
