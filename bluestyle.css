@@ -104,13 +104,6 @@ h1 {
 	-webkit-filter: blur(3px);
 	filter: blur(3px)
 }
-
-.a:active{
-	-webkit-filter: blur(0px);
-	filter: blur(0px)
-}
-
-
 .nav_image:hover {
 	/*
 	height:100px;
@@ -118,7 +111,15 @@ h1 {
 	*/
 	-webkit-filter: blur(0px);
 	filter: blur(0px)
-	}	
+	}
+	
+a .nav_image:active{
+	-webkit-filter: blur(0px);
+	filter: blur(0px)
+}
+
+
+	
 a:link {
 	text-decoration: none;
 	color: RGBa(0, 191, 255, 0.9)
