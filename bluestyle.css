@@ -143,7 +143,7 @@ data-tooltip] {
     position: absolute;
     background: RGBa(0, 191, 255, 0.9); 
     color: RGBa(0, 191, 255, 0.9);
-    text-shadow: 0px 0px 7px RGB(255, 20, 147), 0px 0px 2px darkviolet
+    text-shadow: 0px 0px 7px RGB(255, 20, 147), 0px 0px 2px darkviolet;
     padding: 4px 8px;
     font-size: 14px;
     line-height: 1.4;
