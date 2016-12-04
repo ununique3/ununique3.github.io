@@ -97,8 +97,8 @@ h1 {
 	height: 26px;
 	width: 26px:
 	drop-shadow: 0px 0px 23px RGB(255, 20, 147), 0px 0px 12px darkviolet;
-	-webkit-filter: blur(3px) hue-rotate(90deg);
-	filter: blur(3px) hue-rotate(90deg);
+	-webkit-filter: blur(3px) hue-rotate(180deg);
+	filter: blur(3px) hue-rotate(180deg);
 
 }
 .blur-hover:hover {
