@@ -121,7 +121,8 @@ nav {
   font-family: Fantasy;
   color: mediumblue;
   padding: 2px;
-  background-color: RGBa(140, 0, 230, 0.6);
+  background-color: RGBa(255, 0, 255, 0.6);
+  
 }
 
 h2 {
