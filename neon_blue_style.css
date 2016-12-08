@@ -65,7 +65,7 @@ article {
 
 p {
 	float: left;
-  display: inline;
+  
   position: static;
   background-color: RGBa(75, 240, 0, 0.5);
   border: 0px solid mediumblue;
