@@ -23,7 +23,7 @@ body {
 header,
 nav,
 footer {
-  display: block;
+  display: inline;
   position: fixed;
   background-color: RGBa(0, 191, 255, 0.9);
   border: 0px solid mediumblue;
@@ -34,7 +34,7 @@ footer {
   padding: 15px;
 }
 
-section,
+section
 {
 	height: 75%;
 	width: 80%;
