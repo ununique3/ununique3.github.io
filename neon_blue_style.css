@@ -34,8 +34,7 @@ footer {
   padding: 15px;
 }
 
-section
-{
+section {
 	height: 75%;
 	width: 80%;
 	float: left;
@@ -52,8 +51,9 @@ section
 }
 
 p {
+	float: left;
   display: block;
-  position: static;
+  position: relative;
   background-color: RGBa(0, 191, 255, 0.9);
   border: 0px solid mediumblue;
   border-radius: 6px;
