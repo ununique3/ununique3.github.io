@@ -36,6 +36,7 @@ footer {
 
 section,
 {
+	float: left;
   display: block;
   position: static;
   background-color: RGBa(155, 240, 0, 0.5);
@@ -62,7 +63,7 @@ p {
   font-family: Times New Roman;
 }
 
-header,
+header
 {
   align: contain;
   font-size: 2.17em;
