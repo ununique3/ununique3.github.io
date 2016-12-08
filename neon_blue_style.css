@@ -40,7 +40,7 @@ section {
 	float: left;
   /*display: block;*/
   position: static;
-  background-color: RGBa(155, 240, 0, 0.5);
+  background-color: RGBa(155, 240, 0, );
   border: 0px solid mediumblue;
   border-radius: 6px;
   margin-top: 130px;
