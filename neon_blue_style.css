@@ -1,0 +1,193 @@
+/* 
+ * What up y'all!
+ * This CSS style sheet; Neon Blue 
+ * Was written By ununique3
+ * In Austin, TX 
+ * Winter, 2016
+ * 
+ */
+
+html,
+body {
+  background: url(https://github.com/ununique3/ununique3.github.io/blob/master/powershot%207-14%20626_Fotor_%20inverted.jpg?raw=true);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Fantasy;
+}
+
+header,
+nav,
+footer {
+  display: block;
+  position: fixed;
+  background-color: RGBa(0, 191, 255, 0.9);
+  border: 0px solid mediumblue;
+  border-radius: 6px;
+  margin-top: 1px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(77, 77, 0, 0.7), 0 6px 20px 6px rgba(100, 20, 211, 0.6);
+  padding: 15px;
+}
+
+section,
+{
+  display: block;
+  position: static;
+  background-color: RGBa(155, 240, 0, 0.5);
+  border: 0px solid mediumblue;
+  border-radius: 6px;
+  margin-top: 130px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
+  padding: 15px;
+}
+
+p {
+  display: block;
+  position: static;
+  background-color: RGBa(0, 191, 255, 0.9);
+  border: 0px solid mediumblue;
+  border-radius: 6px;
+  margin-top: 130px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
+  padding: 15px;
+  font-family: Times New Roman;
+}
+
+header,
+{
+  align: contain;
+  font-size: 2.17em;
+  background-color: RGBa(0, 191, 255, 0.3);
+  position: fixed;
+  font-family: Fantasy;
+  color: RGBa(0, 191, 255, 0.1);
+  text-shadow: 0px 0px 12px RGB(255, 20, 147), 0px 0px 5px darkviolet;
+  padding: 4px;
+  margin-top: 3px;
+  margin-left: 47px;
+}
+
+h1 {
+  padding: 0;
+  margin: 3px;
+  -webkit-filter: blur(2px) saturate(800%);
+  filter: blur(2px) saturate(800%);
+}
+
+nav header {
+  position: absolute !important;
+  clip: rect(0px 0px 0px 0px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 0px !important;
+  width: 0px !important;
+  overflow: hidden;
+  margin: 1;
+  padding: 1;
+}
+
+nav {
+  display: block;
+  margin-top: 83px;
+  margin-left: 25px;
+  font-size: 1em;
+  font-family: Fantasy;
+  color: mediumblue;
+  padding: 2px;
+  background-color: RGBa(0, 191, 255, 0.3);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_img {
+  border-radius: 100%;
+  float: left;
+  padding: 2px;
+  height: 26px;
+  width: 26px;
+  border: 0;
+}
+
+nav li {
+  display: block;
+  float: left;
+}
+
+a.nav_img:link {
+  -webkit-filter: blur(3px) saturate(800%);
+  filter: blur(3px) saturate(800%);
+}
+
+a.nav_img:visited {
+  text-decoration: none;
+  decoration: none;
+}
+
+a.nav_img:hover {
+  -webkit-filter: blur(0px) saturate(300%);
+  filter: blur(0px) saturate(300%);
+}
+
+a.nav_img:active {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+main {
+  display: block;
+  background-color: RGBa(0, 191, 255, 0.9);
+  border: 0px solid mediumblue;
+  border-radius: 6px;
+  margin-top: 1px;
+  margin-left: 33px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+
+p {
+  display: block;
+  position: static;
+  color: black;
+  background-color: RGBa(0, 191, 255, 0.9);
+  border: 0px solid mediumblue;
+  border-radius: 6px;
+  margin-top: 1px;
+  float: right;
+  clear: both;
+}
+
+.text_blur:hover {
+  -webkit-filter: blur(7.7px) saturate(900%);
+  filter: blur(7.7px) saturate(900%);
+}
+
+a.text_blur:link {
+  text-decoration: none;
+  color: RGBa(0, 191, 255, 0.9)
+}
+
+a.text_blur:visited {
+  color: RGBa(0, 191, 255, 0.9);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/*a:hover {
+    -webkit-filter: blur (3px);
+    filter: blur(3px);
+}*/
