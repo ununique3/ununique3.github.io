@@ -186,7 +186,7 @@ p {
   display: block;
   position: static;
   color: black;
-  background-color: RGBa(0, 191, 255, 0.9);
+  background-color: RGBa(0, 191, 255, 0.7);
   border: 0px solid mediumblue;
   border-radius: 6px;
   margin-top: 1px;
