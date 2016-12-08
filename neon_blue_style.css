@@ -121,7 +121,7 @@ nav {
   font-family: Fantasy;
   color: mediumblue;
   padding: 2px;
-  background-color: RGBa(255, 0, 255, 0.6);
+  background-color: RGBa(255, 0, 255, 0.4);
   
 }
 
@@ -163,6 +163,24 @@ a.nav_img:active {
   -webkit-filter: blur(0px);
   filter: blur(0px);
 }
+
+/*this is tool tip hover section of the nav bar*/
+nav_tip {
+	 display: none;
+  margin-top: 6px;
+  margin-left: 25px;
+  font-size: .51em;
+  font-family: Fantasy;
+  color: mediumblue;
+  text-shadow: text-shadow: 0px 0px 12px RGB(255, 20, 147), 0px 0px 5px darkviolet;
+  padding: 4px;
+  padding: 2px;
+  background-color: RGBa(255, 0, 255, 0.4);
+  -webkit-filter: blur(1px) saturate(800%);
+  filter: blur(1px) saturate(800%);
+	
+}
+
 
 p {
   display: block;
