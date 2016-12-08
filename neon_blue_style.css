@@ -124,8 +124,8 @@ nav {
   color: mediumblue;
   padding: 2px;
   background-color: RGBa(255, 255, 0, 0.4);
-  -webkit-filter: blur(0px) saturate(800%);
-  filter: blur(0px) saturate(800%);
+  -webkit-filter: blur(0px) saturate(300%);
+  filter: blur(0px) saturate(300%);
   
 }
 
@@ -149,8 +149,8 @@ nav li {
 }
 
 a.nav_img:link {
-  -webkit-filter: blur(3px) saturate(800%);
-  filter: blur(3px) saturate(800%);
+  -webkit-filter: blur(3px) saturate(1600%);
+  filter: blur(3px) saturate(1600%);
 }
 a.nav_img:visited {
   text-decoration: none;
