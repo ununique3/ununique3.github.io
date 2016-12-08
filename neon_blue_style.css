@@ -51,7 +51,7 @@ section {
 article {
 	
 	float: left;
-  /*display: block;*/
+  display: inline;
   position: static;
   background-color: RGBa(177, 191, 40, 0.4);
   border: 0px solid mediumblue;
@@ -65,7 +65,7 @@ article {
 
 p {
 	float: left;
-  display: static;
+  display: inline;
   position: relative;
   background-color: RGBa(155, 240, 0, 0.5);
   border: 0px solid mediumblue;
@@ -121,7 +121,7 @@ nav {
   font-family: Fantasy;
   color: mediumblue;
   padding: 2px;
-  background-color: RGBa(0, 191, 255, 0.3);
+  background-color: RGBa(140, 0, 230, 0.6);
 }
 
 h2 {
