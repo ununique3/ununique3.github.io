@@ -36,6 +36,8 @@ footer {
 
 section,
 {
+	height: 75%;
+	width: 80%;
 	float: left;
   /*display: block;*/
   position: relative;
