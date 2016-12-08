@@ -77,7 +77,7 @@ p {
   box-shadow: 0 4px 8px 0 rgba(50, 77, 0, 0.7) inset, 0 6px 20px 6px rgba(48, 0, 111, 0.6) inset;
   padding: 13px;
   font-family: Times New Roman;
-  text-shadow: 0px 0px 12px RGB(255, 20, 147), 0px 0px 5px darkviolet;
+  text-shadow: 0px 0px 12px RGB(255, 20, 147), 0px 0px 5px 20px magenta;
 }
 
 header
