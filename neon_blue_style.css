@@ -65,7 +65,7 @@ article {
 
 p {
 	float: left;
-  display: block;
+  display: static;
   position: relative;
   background-color: RGBa(155, 240, 0, 0.5);
   border: 0px solid mediumblue;
@@ -189,6 +189,10 @@ a.text_blur:visited {
   color: RGBa(0, 191, 255, 0.9);
   background-color: transparent;
   text-decoration: none;
+}
+
+footer {
+	clear: both;
 }
 
 
