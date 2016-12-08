@@ -37,7 +37,7 @@ footer {
 section,
 {
 	float: left;
-  display: block;
+  /*display: block;*/
   position: static;
   background-color: RGBa(155, 240, 0, 0.5);
   border: 0px solid mediumblue;
