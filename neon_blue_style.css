@@ -38,7 +38,7 @@ section,
 {
 	float: left;
   /*display: block;*/
-  position: static;
+  position: relative;
   background-color: RGBa(155, 240, 0, 0.5);
   border: 0px solid mediumblue;
   border-radius: 6px;
