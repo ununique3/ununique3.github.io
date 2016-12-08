@@ -148,17 +148,6 @@ a.nav_img:active {
   filter: blur(0px);
 }
 
-main {
-  display: block;
-  background-color: RGBa(0, 191, 255, 0.9);
-  border: 0px solid mediumblue;
-  border-radius: 6px;
-  margin-top: 1px;
-  margin-left: 33px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
-  padding: 5px;
-}
-
 p {
   display: block;
   position: static;
