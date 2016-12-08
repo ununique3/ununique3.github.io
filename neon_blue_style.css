@@ -182,18 +182,6 @@ nav_tip {
 }
 
 
-p {
-  display: block;
-  position: static;
-  color: black;
-  background-color: RGBa(100, 191, 255, 0.8);
-  border: 0px solid mediumblue;
-  border-radius: 6px;
-  margin-top: 1px;
-  float: right;
-  clear: both;
-}
-
 .text_blur:hover {
   -webkit-filter: blur(7.7px) saturate(900%);
   filter: blur(7.7px) saturate(900%);
