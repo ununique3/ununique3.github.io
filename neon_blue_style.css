@@ -160,6 +160,8 @@ a.nav_img:visited {
 a.nav_img:hover {
   -webkit-filter: blur(0px) saturate(300%);
   filter: blur(0px) saturate(300%);
+  				  opacity: 0.5;
+    filter: alpha(opacity= 50);
   
 }
 
