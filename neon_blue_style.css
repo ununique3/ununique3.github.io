@@ -148,7 +148,6 @@ a.nav_img:link {
   -webkit-filter: blur(3px) saturate(800%);
   filter: blur(3px) saturate(800%);
 }
-
 a.nav_img:visited {
   text-decoration: none;
   decoration: none;
@@ -157,6 +156,7 @@ a.nav_img:visited {
 a.nav_img:hover {
   -webkit-filter: blur(0px) saturate(300%);
   filter: blur(0px) saturate(300%);
+  
 }
 
 a.nav_img:active {
