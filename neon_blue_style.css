@@ -39,7 +39,7 @@ section {
 	width: 80%;
 	float: left;
   /*display: block;*/
-  position: relative;
+  position: static;
   background-color: RGBa(155, 240, 0, 0.5);
   border: 0px solid mediumblue;
   border-radius: 6px;
@@ -47,7 +47,7 @@ section {
   margin-right: 10px;
   margin-left: 10px;
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
-  padding: 15px;
+  padding: 3px;
 }
 
 p {
@@ -61,7 +61,7 @@ p {
   margin-right: 10px;
   margin-left: 10px;
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
-  padding: 15px;
+  padding: 10px;
   font-family: Times New Roman;
 }
 
