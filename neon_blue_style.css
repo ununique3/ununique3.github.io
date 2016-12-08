@@ -124,8 +124,8 @@ nav {
   color: mediumblue;
   padding: 2px;
   background-color: RGBa(255, 255, 0, 0.4);
-  -webkit-filter: blur(0px) saturate(00%);
-  filter: blur(0px) saturate(00%);
+  -webkit-filter: blur(0px) saturate(1%);
+  filter: blur(0px) saturate(1%);
   
 }
 
