@@ -150,7 +150,7 @@ nav li {
 
 a.nav_img:link {
   -webkit-filter: blur(4px) saturate(800%);
-  filter: blur(4px) saturate(800%);
+  		  filter: blur(4px) saturate(800%);
 }
 a.nav_img:visited {
   text-decoration: none;
@@ -167,15 +167,18 @@ a.nav_img:hover {
 a.nav_img:active {
 		
   -webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
-  filter: blur(0px) hue-rotate(90deg) saturate(200%);
+      	  filter: blur(0px) hue-rotate(90deg) saturate(200%);
 }
 
 .trippy_gif {
+	float:left
 	padding:7px;
 	position: static;
 	height:60%;
-	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
-  			filter: blur(0px) hue-rotate(90deg) saturate(200%);
+	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
+  			filter: blur(0px) hue-rotate(90deg) saturate(700%);
+  				opacity: 0.7;
+  		  alpha(opacity= 70);
 }
 /*this is tool tip hover section of the nav bar*/
 	.nav_tip {
