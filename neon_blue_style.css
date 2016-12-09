@@ -20,8 +20,7 @@ body {
   font-family: Fantasy;
 }
 
-header,
- {
+header, nav {
   display: block;
   position: fixed;
   background-color: RGBa(0, 191, 255, 0.9);
