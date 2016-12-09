@@ -52,7 +52,7 @@ section {
 article {
 	
 	float: left;
-  display: inline;
+  display: block;
   position: static;
   background-color: RGBa(75, 240, 0, 0.5);
   border: 0px solid mediumblue;
@@ -174,12 +174,12 @@ a.nav_img:active {
  	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/regift.gif?raw=true);
 	padding:7px;
 	position: static;
-	height:300px;
-	width:150px;
+	height:100%;
+	width:80%;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
   			filter: blur(0px) hue-rotate(90deg) saturate(700%);
   				opacity: 0.9;
-  		  alpha(opacity= 00);
+  		  alpha(opacity= 90);
 }
 /*this is tool tip hover section of the nav bar*/
 	.nav_tip {
