@@ -166,8 +166,8 @@ a.nav_img:hover {
 }
 
 a.nav_img:active {
-  -webkit-filter: blur(0px) hue-rotate(90) saturate(200%);
-  filter: blur(0px) hue-rotate(90) saturate(200%);
+  -webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
+  filter: blur(0px) hue-rotate(90deg) saturate(200%);
 }
 
 /*this is tool tip hover section of the nav bar*/
