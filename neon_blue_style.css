@@ -158,9 +158,10 @@ a.nav_img:visited {
 }
 
 a.nav_img:hover {
-  -webkit-filter: blur(0px) saturate(800%) opacity: 0.7;
-  		  filter: blur(0px) saturate(800%) alpha(opacity= 70);
-  
+  -webkit-filter: blur(0px) saturate(800%); 
+  		  filter: blur(0px) saturate(800%);
+  			opacity: 0.7;
+  			alpha(opacity= 70);
 }
 
 a.nav_img:active {
