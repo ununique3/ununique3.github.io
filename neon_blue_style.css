@@ -80,7 +80,7 @@ p {
   font-family: Times New Roman;
       
 }
-.trippy_p {
+#trippy_p {
   
   position: static;
   background-color: RGBa(255, 255, 0, 0.6);
