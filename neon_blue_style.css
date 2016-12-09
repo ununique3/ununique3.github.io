@@ -208,6 +208,25 @@ a.text_blur:visited {
   text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+  color: RGBa(0, 191, 255, 0.9)
+}
+a:visited {
+  text-decoration: none;
+  decoration: none;
+}
+a:hover {
+  -webkit-filter: blur(7.7px) saturate(900%);
+  filter: blur(7.7px) saturate(900%);
+}
+
+a:active {
+	
+}
+
+
+
 footer {
 	clear: both;
 }
