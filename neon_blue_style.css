@@ -257,8 +257,9 @@ a:active {
 
 
 footer {
+	position: static;
 	clear: both;
 	display: relative;
-	bottom:-10px;
+	bottom:-100px;
 }
 
