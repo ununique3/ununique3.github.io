@@ -256,7 +256,7 @@ a:active {
 
 footer {
 	display: inline;
-  position: relative;
+  position: static;
   background-color: RGBa(0, 191, 255, 0.9);
   border: 0px solid mediumblue;
   border-radius: 6px;
