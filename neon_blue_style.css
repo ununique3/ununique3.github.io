@@ -174,8 +174,8 @@ a.nav_img:active {
  	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/regift.gif?raw=true);
 	padding:7px;
 	position: static;
-	height:100%;
-	width:80%;
+	height:600px;
+	width:303px;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
   			filter: blur(0px) hue-rotate(90deg) saturate(700%);
   				opacity: 0.9;
