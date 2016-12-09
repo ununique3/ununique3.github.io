@@ -252,7 +252,12 @@ a:active {
 	
 }
 
-
+.me_trippy {
+	float: right;
+  width:75%;
+    -webkit-filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
+      	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
+}
 
 footer {
 	display: inline;
