@@ -169,7 +169,10 @@ a.nav_img:active {
   -webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
   filter: blur(0px) hue-rotate(90deg) saturate(200%);
 }
+
 .trippy_gif {
+	padding:7px;
+	position: static;
 	height:60%;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
   			filter: blur(0px) hue-rotate(90deg) saturate(200%);
