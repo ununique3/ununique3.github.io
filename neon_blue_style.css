@@ -149,8 +149,8 @@ nav li {
 }
 
 a.nav_img:link {
-  -webkit-filter: blur(4px) saturate(1600%);
-  filter: blur(4px) saturate(1600%);
+  -webkit-filter: blur(4px) saturate(800%);
+  filter: blur(4px) saturate(800%);
 }
 a.nav_img:visited {
   text-decoration: none;
@@ -158,10 +158,10 @@ a.nav_img:visited {
 }
 
 a.nav_img:hover {
-  -webkit-filter: blur(0px) saturate(300%);
-  filter: blur(0px) saturate(300%);
-  				  opacity: 0.1;
-    filter: alpha(opacity= 10);
+  -webkit-filter: blur(0px) saturate(800%);
+  filter: blur(0px) saturate(800%);
+  				  opacity: 0.5;
+    filter: alpha(opacity= 50);
   
 }
 
