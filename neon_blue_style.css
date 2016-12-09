@@ -211,7 +211,7 @@ a.text_blur:visited {
 a:link {
 	color: RGBa(255, 255, 0, 0.6);
   text-decoration: none;
-  color: RGBa(0, 191, 255, 0.9)
+  
 }
 a:visited {
   text-decoration: none;
