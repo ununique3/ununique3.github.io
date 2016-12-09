@@ -123,7 +123,7 @@ nav {
   font-family: Fantasy;
   color: mediumblue;
   padding: 2px;
-  background-color: RGBa(199, 21, 133, 0.4);
+  background-color: RGBa(148, 0, 211, 0.4);
   -webkit-filter: blur(0px) saturate(200%);
   filter: blur(0px) saturate(200%);
   
