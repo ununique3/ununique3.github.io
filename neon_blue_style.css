@@ -172,14 +172,13 @@ a.nav_img:active {
 
 .trippy_gif {
  	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/powershot%207-14%20626_Fotor_%20inverted.jpg?raw=true);
-	float:left
-	padding:7px;
+	/*padding:7px;
 	position: static;
 	height:60%;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
   			filter: blur(0px) hue-rotate(90deg) saturate(700%);
   				opacity: 0.9;
-  		  alpha(opacity= 00);
+  		  alpha(opacity= 00);*/
 }
 /*this is tool tip hover section of the nav bar*/
 	.nav_tip {
