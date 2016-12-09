@@ -122,7 +122,7 @@ nav {
   font-size: 1em;
   font-family: Fantasy;
   color: mediumblue;
-  padding: 2px 6p 2px 6px;
+  padding: 2px 6px 2px 6px;
   background-color: RGBa(255, 0, 0, 0.3);
   -webkit-filter: blur(0px) saturate(200%);
   filter: blur(0px) saturate(200%);
