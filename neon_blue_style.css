@@ -169,7 +169,11 @@ a.nav_img:active {
   -webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
   filter: blur(0px) hue-rotate(90deg) saturate(200%);
 }
-
+.trippy_gif {
+	height:60%;
+	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
+  			filter: blur(0px) hue-rotate(90deg) saturate(200%);
+}
 /*this is tool tip hover section of the nav bar*/
 	.nav_tip {
 		 display: none;
