@@ -242,5 +242,6 @@ a:active {
 footer {
 	clear: both;
 	display: relative;
+	bottom:10px;
 }
 
