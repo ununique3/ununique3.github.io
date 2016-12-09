@@ -262,10 +262,12 @@ footer {
   background-color: RGBa(0, 191, 255, 0.9);
   border: 0px solid mediumblue;
   border-radius: 6px;
-  margin-top: 1px;
-  margin-left: 10px;
+  
+  margin-left: 33px;
+  margin-bottom: -100px;
+  margin-right: 33px;
   box-shadow: 0 4px 8px 0 rgba(77, 77, 0, 0.7), 0 6px 20px 6px rgba(100, 20, 211, 0.6);
-  padding: 15px;
+  padding: 8px;
 	clear: both;
 	
 	
