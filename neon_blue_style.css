@@ -21,7 +21,7 @@ body {
 }
 
 header,
-nav {
+ {
   display: block;
   position: fixed;
   background-color: RGBa(0, 191, 255, 0.9);
