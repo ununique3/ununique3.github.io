@@ -21,6 +21,7 @@ body {
 }
 
 header, nav {
+	float: left;
   display: inline;
   position: fixed;
   background-color: RGBa(0, 191, 255, 0.9);
