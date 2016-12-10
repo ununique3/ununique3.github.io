@@ -98,10 +98,10 @@ p {
 }
 .trippy_me {
 	float: right;
-	border-radius: 20px;
+	border-radius: 13px;
   width: 75px;
   height: 300px;
-  box-shadow: 0 4px 8px 0 rgba(50, 77, 0, 0.7) inset, 0 6px 20px 6px rgba(48, 0, 111, 0.6) inset;
+  box-shadow: 3px 3px 3px 3px yellow inset;
     -webkit-filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
       	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
 }
@@ -111,6 +111,7 @@ p {
   margin-left: 347px;
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
   padding:3px;
+  padding-bottom 23px: 
 }
 header
 {
