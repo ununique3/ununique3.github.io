@@ -103,7 +103,7 @@ p {
 	border-radius: 13px;
   width: 75px;
   height: 300px;
-  box-shadow: inset 2px 2px 13px 1px white, inset 3px 3px 13px 2px goldenrod ;
+  box-shadow: inset 2px 2px 13px 1px white, inset 3px 3px 13px 2px magenta ;
     -webkit-filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
       	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
       	    				opacity: 0.77;
@@ -112,7 +112,7 @@ p {
 .me {
 	position: fixed;
 	 margin-top: 36px;
-  margin-left: 455px;
+  margin-left: 463px;
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
   padding: 33px 3px 33px 3px;
    
