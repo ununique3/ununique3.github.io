@@ -108,10 +108,10 @@ p {
 .me {
 	position: fixed;
 	 margin-top: 36px;
-  margin-left: 476px;
+  margin-left: 433px;
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
-  padding:3px;
-  padding-bottom 23px: 
+  padding: 3px 3px 23px 3px;
+   
 }
 header
 {
