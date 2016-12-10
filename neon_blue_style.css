@@ -104,8 +104,11 @@ p {
       	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
 }
 .me {
+	position: fixed;
 	 margin-top: 47px;
-  margin-left: -30px;
+  margin-left: -47px;
+  box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
+  padding:3px;
 }
 header
 {
