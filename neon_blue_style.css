@@ -96,6 +96,13 @@ p {
   				opacity: 0.6;
   		  alpha(opacity= 60);
 }
+.trippy_me {
+	float: right;
+  width: 75px;
+  height: 300px;
+    -webkit-filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
+      	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
+}
 header
 {
   font-size: 2.17em;
