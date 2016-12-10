@@ -98,6 +98,7 @@ p {
 }
 .trippy_me {
 	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/IMG_0779.jpg?raw=true);
+	background-size: 75px 300px;
 	float: right;
 	border-radius: 13px;
   width: 75px;
