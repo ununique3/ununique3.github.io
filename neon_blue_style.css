@@ -139,7 +139,9 @@ h1 {
   -webkit-filter: blur(2px) saturate(800%);
   filter: blur(2px) saturate(800%);
 }
-
+/*----------------------------------------------
+     NAVAGATION SECTION 
+                        ---------------------*/
 nav header {
   position: absolute !important;
   clip: rect(0px 0px 0px 0px);
@@ -174,10 +176,8 @@ h2 {
 }
 
 
-/*----------------------------------------------
-     NAVAGATION SECTION 
-                        ---------------------*/
-.nav_img {
+
+.nav_button {
   border-radius: 100%;
   float: left;
   padding: 2px;
@@ -206,6 +206,7 @@ a.nav_button:hover {
   			opacity: 0.7;
   			alpha(opacity= 70);
 }
+
 
 a.nav_button:active {
 		
