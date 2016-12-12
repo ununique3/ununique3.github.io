@@ -173,6 +173,10 @@ h2 {
   margin: 0;
 }
 
+
+/*----------------------------------------------
+     NAVAGATION SECTION 
+                        ---------------------*/
 .nav_img {
   border-radius: 100%;
   float: left;
@@ -187,27 +191,29 @@ nav li {
   float: left;
 }
 
-a.nav_img:link {
+a.nav_button:link {
   -webkit-filter: blur(4px) saturate(800%);
   		  filter: blur(4px) saturate(800%);
 }
-a.nav_img:visited {
+a.nav_button:visited {
   text-decoration: none;
   decoration: none;
 }
 
-a.nav_img:hover {
+a.nav_button:hover {
   -webkit-filter: blur(0px) saturate(800%); 
   		  filter: blur(0px) saturate(800%);
   			opacity: 0.7;
   			alpha(opacity= 70);
 }
 
-a.nav_img:active {
+a.nav_button:active {
 		
   -webkit-filter: blur(0px) hue-rotate(90deg) saturate(200%);
       	  filter: blur(0px) hue-rotate(90deg) saturate(200%);
 }
+
+
 
 .trippy_gif {
  	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/regift.gif?raw=true);
