@@ -304,6 +304,7 @@ a.nav_button:active {
 	position: static;
 	height:600px;
 	width:303px;
+	border-radius: 13px;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
   			filter: blur(0px) hue-rotate(90deg) saturate(700%);
   				opacity: 0.9;
