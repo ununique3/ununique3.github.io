@@ -298,13 +298,97 @@ a.nav_button:active {
 
 
 
+
+
+a.prismaBlur:link {
+  text-decoration:none;
+  padding:0px;
+ color: rgba( 255, 255, 255, 1);
+  
+  border:1px dotted white;
+  
+  transition: .5s;
+  transition-timing-function: linear;
+  
+   letter-spacing: ;
+  
+  text-shadow: ;
+  
+  
+ -webkit-filter: blur(100px) hue-rotate(0deg) saturate(35000%) contrast(100%);
+      	  filter: blur(0px) hue-rotate(0deg) saturate(35000%) contrast(100%);
+}
+/* visited link */
+a.prismaBlur:visited {
+  color: rgba( 255, 255, 255, 1);
+    
+  text-shadow: 3px 4px 1px magenta;
+  transition:1s;
+}
+a.prismaBlur:hover {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  padding:4px;
+  text-shadow: 
+    /*yellow*/
+    18px 4px 15px rgba(255, 255, 0, 0.3),
+    /*green*/
+    10px 11px 15px rgba(0, 128, 0,0.3),
+    /*blue*/
+    -3px 15px 15px rgba(0, 0, 255, 0.3),
+    /*indigo*/
+    -14px 7px 15px rgba(75, 0, 130, 0.3),
+    /*violet*/
+    -16px -7px 15px rgba(238, 130, 238,0.3),
+    /*red*/
+    -2px -12px 15px rgba(255, 0, 0,0.3),
+    /*orange*/
+    13px -8px 15px rgba(255, 165, 0, 0.3) ;
+  
+  transition: 1s;
+  transition-timing-function: linear;
+  
+  -webkit-filter: blur(100px) hue-rotate(0deg) saturate(35000%) contrast(100%);
+      	  filter: blur(.7px) hue-rotate(10deg) saturate(39000%) contrast(100%);
+}
+
+a.prismaBlur:active {
+  text-decoration: none;
+  letter-spacing: ;
+  
+   text-shadow: 
+    /*yellow*/
+    18px 4px 15px rgba(255, 255, 0, 0.3),
+    /*green*/
+    10px 11px 15px rgba(0, 128, 0,0.3),
+    /*blue*/
+    -3px 15px 15px rgba(0, 0, 255, 0.3),
+    /*indigo*/
+    -14px 7px 15px rgba(75, 0, 130, 0.3),
+    /*violet*/
+    -16px -7px 15px rgba(238, 130, 238,0.3),
+    /*red*/
+    -2px -12px 15px rgba(255, 0, 0,0.3),
+    /*orange*/
+    13px -8px 15px rgba(255, 165, 0, 0.3) ;
+  
+  transition: .7s;
+  transition-timing-function: linear;
+  
+  -webkit-filter: blur(100px) hue-rotate(602deg) saturate(35000%) contrast(100%);
+      	  filter: blur(3px) hue-rotate(2720deg) saturate(350000%) contrast(100%);
+}
+
+
+
+
 .trippy_gif {
  	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/regift.gif?raw=true);
 	padding:7px;
 	position: static;
 	height:600px;
 	width:303px;
-	border-radius: 13px;
+	border-radius: 23px;
 	-webkit-filter: blur(0px) hue-rotate(90deg) saturate(700%);
   			filter: blur(0px) hue-rotate(90deg) saturate(700%);
   				opacity: 0.9;
