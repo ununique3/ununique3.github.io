@@ -245,6 +245,7 @@ p {
   		  alpha(opacity= 60);
 }
 .trippy_me {
+  transition:2s;
 	background: url(https://github.com/ununique3/ununique3.github.io/blob/master/IMG_0779.jpg?raw=true);
 	background-size: 75px 300px;
 	float: right;
@@ -252,11 +253,27 @@ p {
   width: 75px;
   height: 300px;
   
-  box-shadow: inset 0px 0px 21px 3px rgba(255, 0, 255, 0.7) ;
+  box-shadow: inset 0px 0px 1px 3px rgba(255, 0, 255, 0.7) ;
     -webkit-filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
       	  filter: blur(0px) hue-rotate(130deg) saturate(900%) contrast(110%);
       	    				opacity: 0.77;
-  		  alpha(opacity= 77)
+  		  alpha(opacity= 77);
+}
+
+.trippy_me:hover {
+  transition:7s;
+  background: url(https://github.com/ununique3/ununique3.github.io/blob/master/IMG_0779.jpg?raw=true);
+	background-size: 75px 300px;
+	float: right;
+	border-radius: 13px;
+  width: 75px;
+  height: 300px;
+  
+  box-shadow: inset 0px 0px 100px 3px rgba(255, 0, 255, 0.7) ;
+    -webkit-filter: blur(0px) hue-rotate(5300deg) saturate(900%) contrast(110%);
+      	  filter: blur(0px) hue-rotate(5300deg) saturate(900%) contrast(110%);
+      	    				opacity: 0.77;
+  		  alpha(opacity= 77);
 }
 .me {
 	position: fixed;
