@@ -538,3 +538,57 @@ footer {
 	
 }
 
+/*for the triangle animation */
+div {
+  margin:px;
+  filter:saturate(0%);
+    
+  transition:20s;
+  opacity:;
+}
+
+div.equalUp:hover{
+ transform:rotate(36000deg);
+  transform-origin: center;
+ filter:saturate(1000%) hue-rotate(3600deg);
+  
+ }
+div.equalDown:hover{
+
+ filter:saturate(1000%) hue-rotate(-3600deg);
+  
+ }
+
+.equalUp {
+  
+  margin-top:;
+  position: relative;
+  
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    border-right: 240px solid transparent;
+    border-bottom: 390px solid rgba(0, 255, 255, 1);
+  border-left: 240px solid transparent;
+  
+}
+
+.equalDown {
+  position:absolute;
+  margin-top: 135px;
+  margin-left:-240px;
+  
+  
+  
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    border-right: 240px solid transparent;
+  border-left: 240px solid transparent;
+  border-top: 390px solid rgba(255, 0, 255, 1);
+  
+}
+
+
+ 
+ 
