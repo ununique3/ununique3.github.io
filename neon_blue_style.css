@@ -1,4 +1,4 @@
-/* 
+		/* 
  * What up y'all!
  * This CSS style sheet; Neon Blue 
  * Was written By ununique3
@@ -207,6 +207,7 @@ p.greenFloater {
 }
 
 p {
+    color: rgb(92, 34, 134);
 	float: left;
   
   position: static;
@@ -282,7 +283,7 @@ p {
   background-color: rgba(245, 10, 245, 0.6);
   box-shadow: 0 4px 8px 0 rgba(100, 77, 20, 0.7), 0 6px 20px 6px rgba(148, 0, 211, 0.6);
   padding: 53px 3px 86px 3px;
-   
+   border-radius:7px;
 }
 header
 {
@@ -381,9 +382,9 @@ a.nav_button:active {
 a.prismaBlur:link {
   text-decoration:none;
   padding:0px;
- color: rgba( 255, 255, 255, 1);
+ color: rgba( 255, 255, 255, .6);
+  font-size: 1.5em;
   
-  border:1px dotted white;
   
   transition: .5s;
   transition-timing-function: linear;
@@ -398,7 +399,7 @@ a.prismaBlur:link {
 }
 /* visited link */
 a.prismaBlur:visited {
-  color: rgba( 255, 255, 255, 1);
+  color: rgba( 255, 255, 255, .6);
     
   text-shadow: 3px 4px 1px magenta;
   transition:1s;
@@ -450,7 +451,7 @@ a.prismaBlur:active {
     /*orange*/
     13px -8px 15px rgba(255, 165, 0, 0.3) ;
   
-  transition: .7s;
+  transition: .5s;
   transition-timing-function: linear;
   
   -webkit-filter: blur(100px) hue-rotate(602deg) saturate(35000%) contrast(100%);
@@ -473,23 +474,31 @@ a.prismaBlur:active {
   		  alpha(opacity= 90);
 }
 /*this is tool tip hover section of the nav bar*/
-	.nav_tip {
-		 display: none;
- 		 margin-top: 6px;
-  		margin-left: 25px;
-  		font-size: .51em;
- 		 font-family: Fantasy;
-  		color: mediumblue;
-  		text-shadow: text-shadow: 0px 0px 12px RGB(255, 20, 147), 0px 0px 5px darkviolet;
-  		padding: 4px;
-  		padding: 2px;
-  		background-color: RGBa(255, 0, 255, 0.4);
- 	 -webkit-filter: blur(1px) saturate(800%);
-  			 filter: blur(1px) saturate(800%);
-	
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
-	.nav_tip:hover p {
-    	display: block;
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba( 100, 65, 265, .8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding:3px ;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 /*end tool tip for nav bar*/
 
@@ -554,4 +563,3 @@ footer {
 	
 	
 }
-
