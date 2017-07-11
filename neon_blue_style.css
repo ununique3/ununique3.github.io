@@ -502,7 +502,7 @@ a.prismaBlur:active {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     filter: hue-rotate(900deg);
-    transition: .25s;
+    /*transition: .25s;*/
     
     
 }
